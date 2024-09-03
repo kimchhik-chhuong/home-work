@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 15px;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+ul li{
+    display: flex;   
+    padding: 10px;
+}
+ul li a{
+    text-decoration: none;
+}
+header{
+    text-align: center;
+    padding: 100px;
+    box-shadow: 0 10px 10px rgba(0.1,0,0,0.1);
+    background-color: gainsboro;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+.card{
+    background-color: aliceblue;
+    padding: 20px;
+    margin:5px;
+    /* box-shadow: 0 10px 10px rgba(0.2,0,0,0.1); */
+    flex-wrap: wrap;
+    width: 50vh;
+    height: 20vh;
+
+}
+.full-card{
+    width: 79.3%;
+}
+.container{
+    
+}
+caption{
+    font-size: 2.2rem;
+}
+table{
+    width: 70%;
+    border-collapse: collapse;
+    text-align: center;
+}
+thead tr:nth-child(1){
+    border: 2px solid white;
+}
+tbody td,
+thead th
+{
+    border: 10px;
+    width: 20%;
+    height: 5vh;
+}
+th, td{
+    border: 1px solid black;
+    color: white;
+}
+thead th:nth-last-of-type(1),
+tbody td:nth-last-of-type(1){
+    background: rgb(24, 94, 117);
+}
+thead th:nth-last-of-type(2),
+tbody td:nth-last-of-type(2){
+    background: rgb(30, 117, 146);
+}
+thead th:nth-last-of-type(3),
+tbody td:nth-last-of-type(3){
+    background: rgb(39, 142, 177);
+}
+thead th:nth-last-of-type(4),
+tbody td:nth-last-of-type(4){
+    background: rgb(55, 180, 221);
+}
+.active-link{
+    background-color: pink;
+}
